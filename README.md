@@ -5,7 +5,7 @@
 
 ### Servlets
 ### Hibernate
-### JSP and HTML/CSS
+### JSP and HTML5/CSS
 ### MySQL
  
 
