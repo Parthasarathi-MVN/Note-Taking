@@ -1,0 +1,242 @@
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  background-color: antiquewhite;
+}
+#home {
+  background: url(/notes.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+
+.main {
+  display: grid;
+  place-items: center;
+}
+
+.bt {
+  cursor: pointer;
+}
+
+.main-head {
+  font-size: 50px;
+  margin-top: 15rem;
+}
+.btn-main {
+  margin-top: 0.5rem;
+  color: white;
+  background-color: black;
+  border: 0;
+  transition: all 0.3s;
+  width: 10rem;
+  height: 3rem;
+}
+
+.btn-main:hover {
+  background-color: rgb(117, 34, 34);
+  color: white;
+  transform: scale(1.2);
+}
+
+/* NAVBAR */
+
+#trans {
+  background-color: transparent;
+}
+ul {
+  list-style-type: none;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(221, 176, 118);
+  margin: 0 auto;
+  padding-right: 10px;
+}
+a:visited {
+  text-decoration: none;
+  color: black;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.logo {
+  justify-content: left;
+  align-items: left;
+}
+
+.nav__links li {
+  display: inline-block;
+  padding-right: 20px;
+}
+
+.nav__links li a {
+  transition: color 0.3s;
+}
+
+.nav__links li a:hover {
+  color: #d32f2f;
+}
+
+.logo {
+  padding-left: 10px;
+}
+
+.btn {
+  color: rgb(221, 176, 118);
+  background-color: black;
+  border: 0;
+  padding: 5px;
+  border-radius: 6px;
+  transition: background-color 0.5s;
+}
+
+.btn:hover {
+  background-color: antiquewhite;
+  color: black;
+}
+
+/* ADD NOTES */
+
+.form-label {
+  padding-bottom: 1rem;
+}
+
+.add_notes {
+  display: grid;
+  place-items: center;
+}
+
+div.title {
+  padding-bottom: 2rem;
+}
+
+textarea {
+  width: 500px;
+  border-radius: 5px;
+  border-width: 3px;
+  border-color: burlywood;
+}
+
+input.title {
+  border-radius: 5px;
+  border-width: 3px;
+  border-color: burlywood;
+}
+
+input:focus {
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(126, 121, 172, 0.486);
+}
+textarea:focus {
+  outline: none;
+  box-shadow: 0px 0px 0px 3px rgba(126, 121, 172, 0.486);
+}
+
+.submit {
+  display: grid;
+  place-items: center;
+}
+
+.heading {
+  display: grid;
+  place-items: center;
+  font-weight: 500;
+}
+
+.btn-submit {
+  margin-top: 1rem;
+  color: white;
+  background-color: steelblue;
+  border: 0;
+  padding: 5px;
+  border-radius: 10px;
+  transition: all 0.3s;
+}
+
+.btn-submit:hover {
+  background-color: darkolivegreen;
+  transform: scale(1.2);
+}
+
+/* CARDS */
+
+.all-cards {
+  margin-top: 2rem;
+  display: grid;
+  place-items: center;
+}
+
+.card {
+  min-width: 500px;
+  min-height: 200px;
+  width: auto;
+  border: 2px solid #9b9aef; /* Set up Border */
+  border-radius: 4px; /* Slightly Curve edges */
+  overflow: hidden; /* Fixes the corners */
+  display: flex; /* Children use Flexbox */
+  flex-direction: column; /* Rotate Axis */
+}
+.card-header {
+  color: #322fd3;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 600;
+  border-bottom: 1px solid #9aa7ef;
+  background-color: #efebff;
+  padding: 5px 10px;
+}
+.card-main {
+  display: flex; /* Children use Flexbox */
+  flex-direction: column; /* Rotate Axis to Vertical */
+  justify-content: center; /* Group Children in Center */
+  align-items: center; /* Group Children in Center (+axis) */
+  padding: 15px 0; /* Add padding to the top/bottom */
+}
+
+.main-description {
+  color: #322fd3;
+  font-size: 20px;
+  text-align: center;
+}
+
+.btn-delete {
+  margin-top: 0.5rem;
+  color: white;
+  background-color: saddlebrown;
+  border: 0;
+  padding: 5px;
+  border-radius: 10px;
+  transition: all 0.3s;
+}
+.btn-delete:hover {
+  background-color: red;
+  transform: scale(1.2);
+}
+
+.btn-update {
+  color: white;
+  background-color: saddlebrown;
+  border: 0;
+  padding: 5px;
+  border-radius: 10px;
+  transition: all 0.3s;
+}
+.btn-update:hover {
+  background-color: darkolivegreen;
+  transform: scale(1.2);
+}
+.align {
+  display: inline;
+  margin: 0 auto;
+}
+
+.img {
+  width: auto;
+  height: auto;
+}
